@@ -413,6 +413,7 @@ article .icon {
   align-items: center;
   text-align: center;
 }
+
 .details-container img {
   max-width: 100%; /* Ensure images don't exceed their container width */
   max-height: 100px; /* Set a maximum height for the images */
@@ -427,12 +428,15 @@ article .icon {
   border-radius: 1rem;
 }
 
-}
-
 .project-title {
   margin: 10px 0;
   color: black;
   text-align: center;
+}
+
+
+
+
 }
 
 /* BUTTON STYLES */
