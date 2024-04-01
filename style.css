@@ -413,6 +413,11 @@ article .icon {
   align-items: center;
   text-align: center;
 }
+.details-container img {
+  max-width: 100%; /* Ensure images don't exceed their container width */
+  max-height: 100px; /* Set a maximum height for the images */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
 
 .project-img {
   width: 100%;
